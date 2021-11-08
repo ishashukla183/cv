@@ -2,96 +2,82 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8">
-  <title>Isha Shukla</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <!-- Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!--CSS-->
   <link rel="stylesheet" href="css/styles.css">
+  <!--Favicon-->
   <link rel="icon" href="favicon.ico">
+  <!--Fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+  <meta charset="utf-8">
+  <title> Isha Shukla </title>
 </head>
 
 <body>
-  <div class="top-container">
-    <img width="100%"src="images\isha-2.jpg" alt="background-image">
-    <div class="me">
-      <h1>I'm Isha.</h1>
-      <br>
-      <h4 class="pro">A programmer.</h4>
-    </div>
-  </div>
+  <div class="container-fluid top-container">
+    <!--navbar-->
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg  navbar-dark">
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"> </span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 
-  <div class="middle-container">
-    <img class="profilepic" src="images\isha2.png" alt="Isha profile picture">
-    <div class="intro">
-      <p>
-      <h2>Hello. </h2>
-      </p>
-      <p> I'm an undergrad student majoring in Computer Engineering. I love solving puzzles on and learning new things. <br>
-        I hope to create apps and video games someday. I'm also interested in machine learning and data science. </p>
-    </div>
-    <hr>
-    <div class="about">
-      <p>
-      <h2> My Skills</h2>
-      </p>
-      <p> <img class="wbd" src="images\web-designs.png" alt="web-design"> </p>
-      <p class="wbdtxt">
-        I'm currently learning both front-end and back-end development. I'm well versed in Data Structures and
-        Algorithms and have some experience with machine learning projects and data science. I can code well in
-        several languages but I'm most experienced in Java.
-      </p>
-    </div>
-
-    <br>
-    <div class="tools">
-      <hr class="hr1">
-      <p>
-      <h2>Tools and Technologies</h2>
-      </p>
-      <p class="tools">
-      <div class="images">
-        <img class="css" src="images\css.png" alt="CSS">
-        <img class="py" src="images\python.png" alt="Python">
-        <img class="java" src="images\java.png" alt="Java">
-        <img class="html" src="images\html.png" alt="HTML">
-        <img class="js" src="images\js.png" alt="JavaScript">
-        <img class="c" src="images\c.png" alt="C">
-        <img class="cpp" src="images\c++.png" alt="C++">
-      </div>
-    </div>
-
-    <div class="Hobbies">
-      <hr>
-      <h2>Hobbies and Interests</h2>
-      <img class="hobby1" src="images\palette.png" alt="Painting">
-      <p class="hobby1txt">
-        I like to paint pictures that potray surreality. The works of artists like Picasso, Salvador Dali
-        and Max Ernst intrigue and inspire me.
-      </p>
-      <div class="hobby2">
-        <img class="hobby1" src="images\book.png" alt="book">
-        <p class="hobby1txt"> I enjoy reading books on different sciences, particularly
-          nuerology, immunology, oncology as well as cosmology and quantum mechanics.</p>
-      </div>
-      <div class="coffee">
-      <img class="hobby1 "src="images\coffee.png" alt="coffee">
-<p class="hobby1txt"> But my absolutely favourite thing in the world is coffee. I brew my own coffee
-  and love to try different brews, roasts and recipes from all around the world.
-  A nice medium roast French Press is my go-to.
-</p> <hr class="hr2">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Projects</a>
+            </li>
+          </ul>
         </div>
+      </nav>
+    <div class="row">
+      <div class="col col-lg-6 col-md-6 col-sm-6">
+          <h1 class="pp">Hi!<br> I'm <span id="name"> Isha Shukla</span>,<br></h1>
+          <div class="bottom-text">
+             <h2> a <span class="pro">pro</span>grammer.</h2>
+             <button type="button" class="btn btn-primary btn-dark btn-lg">Contact</button>
+              <button type="button" class="btn btn-primary btn-dark btn-lg">Connect</button>
+          </div>
+        </div>
+      <div class="col col-lg-6 col-md-6 col-sm-6">
+        <img class="ppimg" src="images\pp-modified.png" alt="Image computer">
+      </div>
     </div>
   </div>
-  <div class="bottom-container">
-    <h2>Get In Touch</h2>
-    <p>Love coffee as much as I do? Let's talk about how awesome it is! We can code and drink coffee!</p>
+  <div class="middle-container container-fluid ">
+    <div class="row">
+        <div class="col col-lg-6 col-md-6 col-sm-6">
+  <img class="profilepic" src="images\isha2.png" alt="Isha profile picture">
+</div>
+  <div class="col col-lg-6 col-md-6 col-sm-6">
+    <div class="intro">
+  <p>  <h2 class="name"> <bold> About Me</bold> </h2> </p>
+  <p> <strong>Name: </strong>Isha Shukla <br>
+     <strong>Age: </strong> 18 <br>
+     <strong>Located At:</strong> Pune, Maharashtra, India.
+      <br> <br>
+     I'm an undergrad student majoring in <strong>Computer Engineering</strong>. I love solving puzzles and learning new things. I'm interested in machine learning and data science. I would also love to create apps and video games someday!
+   I'm always up for internship opportunities and working on new projects.</p>
+      </div>
+    </div>
+    </div>
+      </div>
+    <div class="Skills container-fluid">
+      <p> <h2 class="name"> <bold> My Skills </bold></h2> </p>
+      <p>cnksfjifjw xsidjwidw</p>
+    </div>
 
-  </div>
-  </p>
-</body>
+  </body>
 
 </html>
+
