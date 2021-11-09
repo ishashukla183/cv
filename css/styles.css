@@ -8,6 +8,15 @@
   align-content: center;
   align-items: center;
 }
+@media (max-width: 900px){
+  .top-container{
+    height: 900px;
+  }
+.hobbytxt1{
+  padding:20px;
+  text-align: center;
+}
+}
 .col-sm-4{
   padding: 40px;
 }
