@@ -10,11 +10,28 @@
 }
 @media (max-width: 900px){
   .top-container{
-    height: 900px;
+    height: 950px;
   }
 .hobbytxt1{
   padding:20px;
   text-align: center;
+  position: relative;
+  right: 100px;
+}
+.hobbytxt2{
+  text-align: center;
+  position: relative;
+  right: 100px;
+}
+.btn-secondary{
+position: relative;
+bottom: 60px;
+right: 150px;
+}
+.hobbytxt3{
+  text-align: center;
+  position: relative;
+  right: 100px;
 }
 }
 .col-sm-4{
