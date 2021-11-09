@@ -13,7 +13,7 @@
 }
 @media (max-width: 900px){
   .top-container{
-    height: 950px;
+    height: 800px;
   }
 
 .hobbytxt1{
@@ -126,13 +126,13 @@ img{
 .hobbytxt1{
   padding: 50px;
   padding-top: 70px;
-  width: 150%;
+  width: 100%;
 }
 .hobbytxt2{
   padding: 50px;
   padding-top: 70px;
   padding-right: 80px;
-  width: 150%;
+  width: 100%;
 }
 .hobbyimg{
 padding-top: 30px;
@@ -141,7 +141,7 @@ padding-top: 30px;
   padding-top: 50px;
 }
 .hobbytxt3{
-   width: 150%;
+   width: 100%;
    padding: 50px;
    padding-top: 90px;
 }
