@@ -14,18 +14,17 @@
 @media (max-width: 900px){
   .top-container{
     height: 800px;
+    text-align: center;
   }
 
 .hobbytxt1{
   padding:20px;
   text-align: center;
-  position: relative;
-  right: 100px;
+  
 }
 .hobbytxt2{
   text-align: center;
-  position: relative;
-  right: 100px;
+  
 }
 .btn-secondary{
 position: relative;
@@ -46,7 +45,7 @@ margin-right: 200px;
 
 }
 }
-.col-sm-4{
+.col-sm-3{
   padding: 40px;
 }
 #name{
