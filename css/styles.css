@@ -63,7 +63,7 @@ color: #000000;
 }
 @media (max-width: 1080px){
 .title-container{
-  height: 800px;
+  height: 850px;
 }
 .top-title-text{
 padding-top: 40px;
@@ -71,7 +71,7 @@ font-size: 4rem;
 font-family: 'Sacramento', cursive;
 }
 .computer-img{
-  width:350px;
+  width:300px;
   padding: 30px;
 }
 .hobbytxt1, .hobbytxt2, .hobbytxt3{
