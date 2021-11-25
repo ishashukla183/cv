@@ -24,14 +24,15 @@
 </head>
 
 <body>
-  <div class="container-fluid title-container black-container">
-    <!--navbar-->
+  <div class="container-fluid title-container black-container flex-container">
+
+
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg  navbar-dark">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"> </span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <div class="collapse navbar-collapse">
 
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
@@ -46,52 +47,54 @@
         </ul>
       </div>
     </nav>
-    <div class="row container-one ">
-      <div class="col col-lg-6 col-md-12 col-sm-12">
+    <div class="row container-one">
+      <div class="col col-lg-6 col-md-12">
         <h1 class="top-title-text">Hi!<br> I'm <span id="name"> Isha Shukla</span>,<br></h1>
         <div>
           <h2><span class="bottom-title-text"> a <span class="pro">pro</span>grammer.</span></h2>
-          </div>
-          <a href="mailto:ishashukla183@gmail.com">
-          <button type="button" class="btn top-btn btn-primary btn-dark btn-lg">Contact</button></a>
-          <a href="https://www.linkedin.com/in/isha-shukla-1b0275224/">
-          <button type="button" class="btn top-btn btn-primary btn-dark btn-lg">Connect</button></a>
         </div>
+        <a href="mailto:ishashukla183@gmail.com">
+          <button type="button" class="btn top-btn btn-primary btn-dark btn-lg">Contact</button></a>
+        <a href="https://www.linkedin.com/in/isha-shukla-1b0275224/">
+          <button type="button" class="btn top-btn btn-primary btn-dark btn-lg">Connect</button></a>
+      </div>
 
-      <div class="col col-lg-6 col-md-12 col-sm-12 main-image">
-        <img class="computer-img" src="images\pp-modified.png" alt="Image computer">
+      <div class="col col-lg-6 col-md-12 main-image">
+        <img class="computer-img" src="images\coder.png" alt="Image computer">
       </div>
     </div>
   </div>
-  <div class="middle-container container-fluid flex-container">
+  <div class="middle-container container-fluid">
     <div class="row About-me">
-      <div class="col col-lg-6 col-md-12 col-sm-12">
+      <div class="col col-lg-4 col-md-12 col-sm-12">
         <img class="profilepic" src="images\isha2.png" alt="Isha profile picture">
       </div>
-      <div id="about-me">
-        <p>
-          <h2 > About Me</h2>
+
+      <div class="col col-lg-8 col-md-12 col-sm-12">
+        <div id="about-me">
+          <p>
+          <h2 class="white-container-title"> About Me</h2>
           </p>
-          <div class="col col-lg-6 col-md-12 col-sm-12">
+
           <p> <strong>Name: </strong>Isha Shukla <br>
             <strong>Age: </strong> 18 <br>
             <strong>Located At:</strong> <i class="fas fa-thumbtack"></i> Pune, Maharashtra, India.
             <br> <br>
-            I'm an undergrad student majoring in <strong>Computer Engineering</strong>. I love solving puzzles and learning new things. I'm interested in machine learning and data science. I would also love to create apps and video games someday!
+            I'm an undergrad student majoring in <strong>Computer Engineering</strong>. I like to simplify complex processes and automate them for a more efficient and quick execution. I'm interested in machine learning and data science. I hope to implement machine learning algorithms to create apps and games someday!
             I'm always up for internship opportunities and working on new projects.
           </p>
         </div>
       </div>
     </div>
   </div>
-  <div class="container-fluid skills-container flex-container" id="Skills">
+  <div class="container-fluid skills-container" id="Skills">
     <p>
     <h2>
       <bold> My Skills </bold>
     </h2>
     </p>
     <div class="row">
-      <div class="col col-lg-3 col-md-3 col-sm-6">
+<div class="col col-lg-3 col-md-3 col-sm-6">
         <img class="py" src="images\python.png" alt="Python">
         <p>Python</p>
       </div>
@@ -119,42 +122,46 @@
         <img src="images\bootstrap.png" alt="">
         <p>Bootstrap</p>
       </div>
-<div class="col col-lg-3 col-md-3 col-sm-6">
+      <div class="col col-lg-3 col-md-3 col-sm-6">
         <img src="images\github.png" alt="">
         <p>GitHub</p>
       </div>
     </div>
   </div>
   <div class="container-fluid black-container flex-container" id="projects">
-      <div class="card-deck">
-<div class="row">
+    <div class="card-deck">
+      <div class="row">
 
-  <h2 class="title ">My Projects</h2>
-    <div class="col col-lg-6 col-md-12 col-sm-12">
-    <div class="card sudoku">
-<img class="card-img-top" src="images\pic1.png" alt="Sudoku image">
-<div class="card-header">
- Sudoku Game
-</div>
-<div class="card-body">
-   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
- </div>
-</div> </div>
-<div class="col col-lg-6 col-md-12 col-sm-12">
-    <div class="card portfolio">
-      <img class="card-img-top" src="images\undraw_portfolio_website_lidw.png" alt="Portfolio website">
-<div class="card-header">
-  Portfolio Website
-</div>
-      <div class="card-body">
-         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-       </div> </div> </div>
+        <h2 class="title ">My Projects</h2>
+        <div class="col col-lg-6 col-md-12 col-sm-12">
+          <div class="card sudoku">
+            <img class="card-img-top" src="images\pic1.png" alt="Sudoku image">
+            <div class="card-header">
+              Sudoku Game
+            </div>
+            <div class="card-body">
+              <p class="card-text">Implementation of the classic Sudoku game, which generates a random board allows user to solve it and displays the answer using visual solve if the user asks for the solution. Developed using pygame module in
+                python.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col col-lg-6 col-md-12 col-sm-12">
+          <div class="card portfolio">
+            <img class="card-img-top" src="images\undraw_portfolio_website_lidw.png" alt="Portfolio website">
+            <div class="card-header">
+              Portfolio Website
+            </div>
+            <div class="card-body">
+              <p class="card-text">A Portfolio website to showcase my Skills and Projects. Developed using HTML, CSS, Bootstrap and JavaScript</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-    </div>
   <div class="container-fluid " id="hobbies">
-    <h2>
-    My Hobbies
+    <h2 class="white-container-title">
+      My Hobbies
     </h2>
     <div class="row hobby1">
       <div class="col-lg-6 col-md-12 col-sm-12">
@@ -166,13 +173,14 @@
       </div>
     </div>
     <div class="row hobby2">
-   <div class="col-lg-6 col-md-12 col-sm-12">
+      <div class="col-lg-6 col-md-12 col-sm-12">
         <img class="hobbyimg2" src="images\book.png" alt="book">
       </div>
       <div class="col-lg-6 col-md-12 col-sm-12">
-        <p class="hobbytxt2">I enjoy reading books on different sciences, particularly nuerology, immunology, oncology as well as cosmology and quantum mechanics.
+        <p class="hobbytxt2">I enjoy reading books on different sciences, particularly neurology, psychology, philosophy as well as cosmology and quantum mechanics.
           Connect with me on Goodreads for recommendations! <br>
-        <button type="button" class=" bookbutton btn btn-secondary btn-light btn-lg">Connect</button></p>
+          <button type="button" class=" bookbutton btn btn-outline-dark btn-lg" data-mdb-ripple-color="dark">Connect</button>
+        </p>
       </div>
     </div>
     <div class="row hobby3">
@@ -184,16 +192,20 @@
       </div>
     </div>
   </div>
-  <div class="container-fluid" id="footer">
+  <div class="container-fluid last-container" id="footer">
     <h2 class="GetInTouch"> <strong> Get In Touch</strong> </h2>
     <p>Let's chat over coffee sometime!</p>
     <a href="mailto:ishashukla183@gmail.com">
-    <button type="button" class="btn btn-primary btn-dark btn-lg">Contact Me</button></a>
-    <p></p> <a href="mailto:ishashukla183@gmail.com"><img class="contact-icon " src="images\gmail1.png" alt=""> </a>
-<a href="https://www.linkedin.com/in/isha-shukla-1b0275224/">
-    <img class="contact-icon " src="images\linkedin.png" alt=""></a>
-    <a href="https://github.com/ishashukla183">
-    <img class="contact-icon " src="images\github1.png" alt=""></a>
+      <button type="button" class="btn btn-primary btn-dark btn-lg">Contact Me</button></a>
+
+    <p></p>
+    <a style="background-color: #dd4b39; role=" button" class="btn btn-primary" href="mailto:ishashukla183@gmail.com"><i class="fas fa-envelope"></i> </a></button>
+
+    <!-- Linkedin -->
+    <a class="btn btn-primary" style="background-color: #0082ca;" href="https://www.linkedin.com/in/isha-shukla-1b0275224/" role="button"><i class="fab fa-linkedin-in"></i></a>
+    <!-- Github -->
+    <a class="btn btn-primary" style="background-color: #333333;" href="https://github.com/ishashukla183" role="button"><i class="fab fa-github"></i></a>
+
     <p class="copyright">© 2021 Isha Shukla.</p>
   </div>
 </body>
