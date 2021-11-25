@@ -5,7 +5,10 @@ body{
   text-align: center;
   align-content: center;
   align-items: center;
-  margin: 10px;
+  margin: 0px;
+}
+.white-container-title{
+  color: #FF5DA2;
 }
 h2{
   font-size: 2.5rem;
@@ -19,9 +22,13 @@ img{
 .container-fluid{
   padding: 3% 7% 7% 7%;
 }
+.container-fluid.last-container{
+  padding-bottom: 3%;
+}
 .skills-container{
   background-color: #FFE0F7;
     color: #000000;
+
 }
 .black-container{
   background-color: #000000;
@@ -33,9 +40,10 @@ img{
 /*First title page*/
 
 .title-container{
-  height: 600px;
+  /* height: 600px; */
   margin: 0px;
   font-weight: bold;
+  padding: 3% 10% 10% 10%;
 
 }
 #name{
@@ -53,6 +61,7 @@ color: #FB90B7;
 #about-me{
   text-align: left;
 
+
 }
 .profilepic{
   margin-top: 50px;
@@ -63,19 +72,20 @@ color: #FB90B7;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  align-content: flex-start;
 }
 .GetInTouch{
 color: #000000;
 }
-.contact-icon{
-  width: 70px;
-}
+
 #footer{
   background-color: #FFE0F7;
+
 }
 .copyright{
   font-weight: lighter;
   font-size: 75%;
+
 }
 .sudoku,.portfolio{
   color: black;
@@ -83,16 +93,20 @@ color: #000000;
 }
 
 
-@media (max-width: 1250px){
-
+@media (max-width: 992px){
+ .About-me{
+    display: inline;
+  }
   /*First title page*/
 
 .title-container{
-  height: 850px;
-
+  /* height: 900px; */
 }
 .profilepic{
-width: 80%;
+width: 85%;
+}
+.container-one{
+  display: inline;
 }
 .top-title-text{
 padding-top: 40px;
@@ -102,7 +116,8 @@ font-family: 'Sacramento', cursive;
 
 .computer-img{
   padding: 30px;
-  width: 80%;
+ width: 100%;
+  flex-flow: column;
 }
 
 /* Hobbies section */
@@ -112,15 +127,16 @@ font-family: 'Sacramento', cursive;
 }
 }
 
-@media (min-width: 1250px)
+@media (min-width: 992px)
 {  /*First title page*/
   .profilepic{
-    width: 70%;
-  }
-  .About-me{
-    flex-wrap: nowrap;
+    width: 90%;
+    margin-left: 100px;
   }
 
+#about-me{
+  margin-left: 100px;
+}
 .computer-img{
   width: 70%;
   margin: 50px 100px 100px 100px;
