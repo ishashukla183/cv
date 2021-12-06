@@ -24,29 +24,53 @@
 </head>
 
 <body>
-  <div class="container-fluid title-container black-container flex-container">
-
-
-    <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg  navbar-dark">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"> </span>
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="dropdown">
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse">
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
 
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#about-me">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-        </ul>
+
+        <div class="offcanvas-body justify-content-start">
+          <p> <img class="iconimg" src="favicon.ico" alt="logo">
+            <bold>Sections<bold>
+          </p>
+          <hr>
+          <ul class="navbar-nav justify-content-start pe-3">
+            <li class="nav-item">
+
+              <a class="nav-link active" aria-current="page" href="#about-me">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-person-fill" viewBox="0 0 16 16">
+                  <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-1 7a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm-3 4c2.623 0 4.146.826 5 1.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-1.245C3.854 11.825 5.377 11 8 11z" />
+                </svg>About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#Skills">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-code-square" viewBox="0 0 16 16">
+                  <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                  <path
+                    d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0zm2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0z" />
+                </svg>
+                Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#projects">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-card-heading" viewBox="0 0 16 16">
+                  <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z" />
+                  <path d="M3 8.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5zm0-5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5v-1z" />
+                </svg>Projects</a>
+            </li>
+          </ul>
+
+        </div>
       </div>
-    </nav>
+    </div>
+  </nav>
+  <div class="container-fluid title-container black-container flex-container">
     <div class="row container-one">
       <div class="col col-lg-6 col-md-12">
         <h1 class="top-title-text">Hi!<br> I'm <span id="name"> Isha Shukla</span>,<br></h1>
@@ -64,6 +88,10 @@
       </div>
     </div>
   </div>
+
+  <!-- Nav Bar -->
+
+
   <div class="middle-container container-fluid">
     <div class="row About-me">
       <div class="col col-lg-4 col-md-12 col-sm-12">
@@ -80,7 +108,8 @@
             <strong>Age: </strong> 18 <br>
             <strong>Located At:</strong> <i class="fas fa-thumbtack"></i> Pune, Maharashtra, India.
             <br> <br>
-            I'm an undergrad student majoring in <strong>Computer Engineering</strong>. I like to simplify complex processes and automate them for a more efficient and quick execution. I'm interested in machine learning and data science. I hope to implement machine learning algorithms to create apps and games someday!
+            I'm an undergrad student majoring in <strong>Computer Engineering</strong>. I like to simplify complex processes and automate them for a more efficient and quick execution. I'm interested in machine learning and data science. I hope to
+            implement machine learning algorithms to create apps and games someday!
             I'm always up for internship opportunities and working on new projects.
           </p>
         </div>
@@ -94,12 +123,12 @@
     </h2>
     </p>
     <div class="row">
-<div class="col col-lg-3 col-md-3 col-sm-6">
-        <img class="py" src="images\python.png" alt="Python">
+      <div class="col col-lg-3 col-md-3 col-sm-6">
+        <img class="py img" src="images\python.png" alt="Python">
         <p>Python</p>
       </div>
       <div class="col col-lg-3 col-md-3 col-sm-6">
-        <img class="java" src="images\java.png" alt="Java">
+        <img class="java img" src="images\java.png" alt="Java">
         <p>Java</p>
       </div>
       <div class="col col-lg-3 col-md-3 col-sm-6">
@@ -107,23 +136,23 @@
         <p>C</p>
       </div>
       <div class="col col-lg-3 col-md-3 col-sm-6">
-        <img class="html" src="images\html.png" alt="HTML">
+        <img class="html img" src="images\html.png" alt="HTML">
         <p>HTML</p>
       </div>
       <div class="col col-lg-3 col-md-3 col-sm-6">
-        <bold><img class="css" src="images\css.png" alt="CSS">
+        <bold><img class="css img" src="images\css.png" alt="CSS">
           <p>CSS</p>
       </div>
       <div class="col col-lg-3 col-md-3 col-sm-6">
-        <img class="js" src="images\js.png" alt="JavaScript">
+        <img class="js img" src="images\js.png" alt="JavaScript">
         <p>JavaScript</p>
       </div>
       <div class="col col-lg-3 col-md-3 col-sm-6">
-        <img src="images\bootstrap.png" alt="">
+        <img class="img" src="images\bootstrap.png" alt="">
         <p>Bootstrap</p>
       </div>
       <div class="col col-lg-3 col-md-3 col-sm-6">
-        <img src="images\github.png" alt="">
+        <img class="img" src="images\github.png" alt="">
         <p>GitHub</p>
       </div>
     </div>
@@ -135,19 +164,20 @@
         <h2 class="title ">My Projects</h2>
         <div class="col col-lg-6 col-md-12 col-sm-12">
           <div class="card sudoku">
-            <img class="card-img-top" src="images\pic1.png" alt="Sudoku image">
+            <img class="card-img-top img" src="images\sudokuProject.png" alt="Sudoku image">
             <div class="card-header">
               Sudoku Game
             </div>
             <div class="card-body">
-              <p class="card-text">Implementation of the classic Sudoku game, which generates a random board allows user to solve it and displays the answer using visual solve if the user asks for the solution. Developed using pygame module in
+              <p class="card-text">Implementation of the classic Sudoku game. It generates a random puzzle, allows user to solve it and view the solution. Algortihm for solving is recursive backtracking as well as crook's algorithm. Comparison of
+                time complexity is displayed for both. Developed using pygame module in
                 python.</p>
             </div>
           </div>
         </div>
         <div class="col col-lg-6 col-md-12 col-sm-12">
           <div class="card portfolio">
-            <img class="card-img-top" src="images\undraw_portfolio_website_lidw.png" alt="Portfolio website">
+            <img class="card-img-top img" src="images\undraw_portfolio_website_lidw.png" alt="Portfolio website">
             <div class="card-header">
               Portfolio Website
             </div>
@@ -165,7 +195,7 @@
     </h2>
     <div class="row hobby1">
       <div class="col-lg-6 col-md-12 col-sm-12">
-        <img class="hobbyimg" src="images\palette.png" alt="Painting">
+        <img class="hobbyimg img" src="images\palette.png" alt="Painting">
       </div>
       <div class="col-lg-6  col-md-12 col-sm-12">
         <p class="hobbytxt1"> I like to paint pictures that potray surreality. The works of artists like Picasso, Salvador Dali
@@ -174,7 +204,7 @@
     </div>
     <div class="row hobby2">
       <div class="col-lg-6 col-md-12 col-sm-12">
-        <img class="hobbyimg2" src="images\book.png" alt="book">
+        <img class="hobbyimg2 img" src="images\book.png" alt="book">
       </div>
       <div class="col-lg-6 col-md-12 col-sm-12">
         <p class="hobbytxt2">I enjoy reading books on different sciences, particularly neurology, psychology, philosophy as well as cosmology and quantum mechanics.
@@ -185,7 +215,7 @@
     </div>
     <div class="row hobby3">
       <div class="col-lg-6 col-md-12 col-sm-12">
-        <img class="hobbyimg3 " src="images\coffee.png" alt="coffee">
+        <img class="hobbyimg3 img" src="images\coffee.png" alt="coffee">
       </div>
       <div class="col col-lg-6 col-md-12 col-sm-12">
         <p class="hobbytxt3"> My absolutely favourite thing in the world is coffee! I brew my own coffee and love to try different brews, roasts and recipes from all around the world. A nice medium roast French Press is my go-to!
@@ -200,7 +230,6 @@
 
     <p></p>
     <a style="background-color: #dd4b39; role=" button" class="btn btn-primary" href="mailto:ishashukla183@gmail.com"><i class="fas fa-envelope"></i> </a></button>
-
     <!-- Linkedin -->
     <a class="btn btn-primary" style="background-color: #0082ca;" href="https://www.linkedin.com/in/isha-shukla-1b0275224/" role="button"><i class="fab fa-linkedin-in"></i></a>
     <!-- Github -->
@@ -208,6 +237,8 @@
 
     <p class="copyright">© 2021 Isha Shukla.</p>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
