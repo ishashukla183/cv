@@ -2,6 +2,9 @@
   font-size: 1.25rem;
   padding-left: 1%;
 }
+.card-header, .card-text{
+  color: black;
+}
 body{
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 1.3rem;
@@ -114,9 +117,12 @@ color: #000000;
   font-size: 75%;
 
 }
-.sudoku,.portfolio{
+.sudoku,.portfolio, .memeShare, .tt-scheduler, .password-vault, .calc{
   color: black;
-  margin: 30px;
+  margin: 25px;
+}
+.kt, .sql{
+  width: 120px;
 }
 
 
