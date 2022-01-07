@@ -117,7 +117,7 @@ color: #000000;
   font-size: 75%;
 
 }
-.sudoku,.portfolio, .memeShare, .tt-scheduler, .password-vault, .calc{
+.sudoku,.portfolio, .memeShare, .tt-scheduler, .password-vault, .calc, .traffic-control{
   color: black;
   margin: 25px;
 }
