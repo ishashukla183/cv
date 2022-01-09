@@ -28,7 +28,7 @@ svg{
   text-align: left;
 }
 .white-container-title{
-  color: #FF5DA2;
+  color: #3EDBF0;
 }
 
 h2{
@@ -41,13 +41,13 @@ h2{
   padding: 20px;
 }
 .container-fluid{
-  padding: 7% 7% 7% 7%;
+  padding: 5% 7% 7% 7%;
 }
 .container-fluid.last-container{
   padding-bottom: 3%;
 }
 .skills-container{
-  background-color: #FFC4E1;
+  background-color: #00C1D4;
     color: #000000;
 
 }
@@ -62,7 +62,7 @@ h2{
 .top-btn, .cv-btn{
   font-size: 1.4rem;
   border-radius: 0;
-  background-color: #FFCEE4;
+  background-color: #3EDBF0;
 }
 
 /*First title page*/
@@ -75,7 +75,7 @@ h2{
 
 }
 #name{
-color: #FB90B7;
+color: #3EDBF0;
 }
 
 .pro{
@@ -114,7 +114,7 @@ color: #000000;
 }
 
 #footer{
-  background-color: #FFC4E1;
+  background-color: #3EDBF0;
 
 }
 .copyright{
