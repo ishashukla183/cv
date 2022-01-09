@@ -1,6 +1,9 @@
 .navbar{
   font-size: 1.25rem;
   padding-left: 1%;
+  width : 100%;
+  padding: 20px 10px;
+  color: #F6F6F6;
 }
 .card-header, .card-text{
   color: black;
@@ -12,7 +15,7 @@ body{
   text-align: center;
   align-content: center;
   align-items: center;
-  margin: 0px;
+ margin: 0px;
 }
 .iconimg{
   padding-right: 15px;
@@ -38,13 +41,13 @@ h2{
   padding: 20px;
 }
 .container-fluid{
-  padding: 3% 7% 7% 7%;
+  padding: 7% 7% 7% 7%;
 }
 .container-fluid.last-container{
   padding-bottom: 3%;
 }
 .skills-container{
-  background-color: #FFE0F7;
+  background-color: #FFC4E1;
     color: #000000;
 
 }
@@ -54,14 +57,21 @@ h2{
 }
 .btn{
   margin: 10px;
+  border-radius: 0;
 }
+.top-btn, .cv-btn{
+  font-size: 1.4rem;
+  border-radius: 0;
+  background-color: #FFCEE4;
+}
+
 /*First title page*/
 
 .title-container{
   /* height: 600px; */
-  margin: 0px;
+
   font-weight: bold;
-  padding: 3% 10% 10% 10%;
+  padding: 10% 10% 10% 10%;
 
 }
 #name{
@@ -94,12 +104,7 @@ bold{
   flex-direction: column;
   align-content: flex-start;
 }
-.nav{
-  color: black!important;
-}
-.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link{
-  color: black!important;
-}
+
 .navbar.bg-dark{
   background-color: black!important;
 }
@@ -109,7 +114,7 @@ color: #000000;
 }
 
 #footer{
-  background-color: #FFE0F7;
+  background-color: #FFC4E1;
 
 }
 .copyright{
@@ -138,7 +143,7 @@ width: 85%;
   display: inline;
 }
 .top-title-text{
-padding-top: 10%;
+padding-top: 20%;
 font-size: 4rem;
 font-family: 'Sacramento', cursive;
 }
@@ -148,7 +153,10 @@ font-family: 'Sacramento', cursive;
  width: 100%;
   flex-flow: column;
 }
+.cv-btn{
+  margin-top: 20px;
 
+}
 /* Hobbies section */
 
 .hobbytxt1, .hobbytxt2, .hobbytxt3{
@@ -170,7 +178,13 @@ font-family: 'Sacramento', cursive;
   width: 70%;
   margin: 50px 50px 100px 100px;
 }
+.cv-btn{
+  position: relative;
+  margin: 40px auto auto 120px;
+  font-weight: 200;
+  font-size: 1.6rem;
 
+}
 .top-title-text{
 padding-top: 7%;
 font-size: 4rem;
