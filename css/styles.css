@@ -2,12 +2,14 @@
   font-size: 1.25rem;
   padding-left: 1%;
   width : 100%;
-  padding: 20px 10px;
+  padding: 15px 10px;
   color: #F6F6F6;
+  background-color: #000000;
 }
 .card-header, .card-text{
   color: black;
 }
+
 body{
   font-family: 'Alegreya Sans', sans-serif;
   font-size: 1.3rem;
@@ -17,28 +19,33 @@ body{
   align-items: center;
  margin: 0px;
 }
-.iconimg{
-  padding-right: 15px;
+.nav-link{
+  color:#F6F6F6;
 }
-svg{
-  margin-right: 20px;
-}
-.dropdown{
-
+.ml-auto{
+  margin-left: 10px!important;
   text-align: left;
 }
 .white-container-title{
   color: #3EDBF0;
 }
+.icon-top{
 
+  width: 50px;
+}
 h2{
-  font-size: 2.5rem;
-  font-weight: normal;
+  font-size: 2.7rem;
   padding: 20px;
 
 }
-.img{
-  padding: 20px;
+
+.card{
+  padding: 10px;
+  margin: 30px;
+}
+.project-title{
+  font-size: 1.8rem;
+  padding: 5px;
 }
 .container-fluid{
   padding: 5% 7% 7% 7%;
@@ -48,8 +55,14 @@ h2{
 }
 .skills-container{
   background-color: #00C1D4;
-    color: #000000;
+  color: #000000;
+  text-align: center;
 
+}
+.blue-container{
+  background-color: #00C1D4;
+  color: #000000;
+  text-align: center;
 }
 .black-container{
   background-color: #000000;
@@ -78,9 +91,6 @@ h2{
 color: #3EDBF0;
 }
 
-.pro{
-  text-decoration: underline;
-}
 .bottom-title-text{
     color: #F6F6F6;
 }
@@ -105,18 +115,6 @@ bold{
   align-content: flex-start;
 }
 
-.navbar.bg-dark{
-  background-color: black!important;
-}
-
-.GetInTouch{
-color: #000000;
-}
-
-#footer{
-  background-color: #3EDBF0;
-
-}
 .copyright{
   font-weight: lighter;
   font-size: 75%;
@@ -126,10 +124,18 @@ color: #000000;
   color: black;
   margin: 25px;
 }
-.kt, .sql{
-  width: 120px;
+.skill-img{
+  width: 75px;
 }
 
+#projects{
+  text-align: center;
+
+}
+.card-img{
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
 @media (max-width: 992px){
  .About-me{
@@ -139,6 +145,10 @@ color: #000000;
 .profilepic{
 width: 85%;
 }
+.skill-img{
+  margin: 20px;
+}
+
 .container-one{
   display: inline;
 }
@@ -170,7 +180,9 @@ font-family: 'Sacramento', cursive;
     width: 90%;
     margin-left: 100px;
   }
-
+.icon-top{
+  margin: auto 40px;
+}
 #about-me{
   margin-left: 100px;
 }
@@ -180,7 +192,7 @@ font-family: 'Sacramento', cursive;
 }
 .cv-btn{
   position: relative;
-  margin: 40px auto auto 120px;
+
   font-weight: 200;
   font-size: 1.6rem;
 
