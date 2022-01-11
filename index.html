@@ -89,7 +89,7 @@
 
   <div class="middle-container container-fluid">
     <h2 class="white-container-title"> About Me</h2>
-<hr>
+      <hr>
     <div class="row About-me">
       <div class="col col-lg-4 col-md-12 col-sm-12">
         <img class="profilepic" src="images\isha2.png" alt="Isha profile picture">
@@ -98,10 +98,6 @@
 
       <div class="col col-lg-8 col-md-12 col-sm-12">
 
-          <p>
-
-         
-          </p>
 <div id="about-me">
           <p> <strong>Name: </strong>Isha Shukla <br>
             <strong>Age: </strong> 18 <br>
@@ -121,50 +117,49 @@
 
  <div class=" container-fluid blue-container " id="education">
 <h2>My Education</h2>
+  <hr />
 <div class="container bcontent">
-        <h3></h3>
-        <hr />
-        <div class="card">
+        <div class="card horiz-card">
             <div class="row no-gutters">
-                <div class="col-sm-5">
+                <div class="col-sm-6">
                     <img class="card-img" src="images\cummins.jpg" alt="cummins">
                 </div>
-                <div class="col-sm-7">
+                <div class="col-sm-6">
                     <div class="card-body">
-                        <h3 class="card-title">Bachelor of Technology in Computer Engineering</h3>
+                        <h3 class="card-title">Bachelor of Technology (B.Tech) in Computer Engineering</h3>
                         <p class="card-text">MKSSS's Cummins College of Engineering for Women, Pune, Maharashtra. |  Pune University (SPPU)</p>
                         <p>Duration : 2020-2024</p>
-                        <a href="https://www.cumminscollege.org/" class="btn btn-primary">View Website</a>
+                        <a href="https://www.cumminscollege.org/" class="btn btn-lg btn-dark btn-primary">View Website</a>
                     </div>
                 </div>
               </div>
             </div>
-            <div class="card">
+            <div class="card horiz-card">
                 <div class="row no-gutters">
-                    <div class="col-sm-5">
+                    <div class="col-sm-6">
                         <img class="card-img" src="images\iitm.jpg" alt="iitm">
                     </div>
-                <div class="col-sm-7">
+                <div class="col-sm-6">
                     <div class="card-body">
                         <h3 class="card-title">Bachelor of Science (B.Sc) in Data Science and Machine Learning</h3>
                         <p class="card-text">Indian Institute of Technology, Madras | (Autonomous)</p>
                         <p>Duration : 2021-present</p>
-                        <a href="https://onlinedegree.iitm.ac.in/" class="btn btn-primary">View Website</a>
+                        <a href="https://onlinedegree.iitm.ac.in/" class="btn btn-lg btn-dark btn-primary">View Website</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="card">
+        <div class="card horiz-card">
             <div class="row no-gutters">
-                <div class="col-sm-5">
+                <div class="col-sm-6">
                     <img class="card-img" src="images\khs.jpg" alt="iitm">
                 </div>
-            <div class="col-sm-7">
+            <div class="col-sm-6">
                 <div class="card-body">
-                    <h3 class="card-title">Higher Secondary Certificate | Science </h3>
-                    <p class="card-text"> Dr. Kalmadi Shamrao High School and Jr. College, Pune, Maharashtra | SSC board </p>
+                    <h3 class="card-title">Higher Secondary Certificate (HSC) | Science </h3>
+                    <p class="card-text"> Dr. Kalmadi Shamrao High School and Jr. College, Pune, Maharashtra | Maharashtra State Board </p>
                     <p>Duration : 2018-2020</p>
-                    <a href="https://kaveri.edu.in/" class="btn btn-primary">View Website</a>
+                    <a href="https://kaveri.edu.in/" class="btn btn-dark btn-lg btn-primary">View Website</a>
                 </div>
             </div>
         </div>
@@ -223,31 +218,32 @@
     </div>
   </div>
   <div class="container-fluid flex-container" id="projects">
-    <h2>My Projects</h2>
+    <h2 class="white-container-title">My Projects</h2>
     <hr>
-    <div class="card-deck">
+    <div class="card-deck ">
+<div class="row">
+<div class="col col-lg-4 col-md-12 col-sm-12 project-col">
+          <div class="card password-vault grey-container">
 
+            <img class="card-img-top" src="images\password-manager.png" alt="password manager">
 
-
-      <div class="row">
-
-
-        <div class="col col-lg-4 col-md-12 col-sm-12">
-          <div class="card password-vault">
-            <img class="card-img-top img" src="images\password-manager.png" alt="Meme Share app">
             <div class="card-header">
+
               <h3 class="project-title">Password vault</h3>
             </div>
             <div class="card-body">
-
-
-              <p class="card-text">A password manager application to store all of your passwords in a sql database in an encrypted format. Developed in Python using sqlite3 module and tkinter for GUI.</p>
+  <p class="card-text">A password manager that can store, retrieve add and delete usernames and passwords for different websites. Developed in Python using Tkinter library for GUI and SQL to store data.</p>
+            </div>
+            <div class="project-card-overlay">
+              <a href="https://github.com/ishashukla183/password-vault">
+             <img class="project-img"src="images/github1.png" alt=""></a>
+             <p>View on Github</p>
             </div>
           </div>
         </div>
-        <div class="col col-lg-4 col-md-12 col-sm-12">
-          <div class="card sudoku">
-            <img class="card-img-top img" src="images\sudokuimg.png" alt="Sudoku image">
+        <div class="col col-lg-4 col-md-12 col-sm-12 project-col ">
+          <div class="card sudoku grey-container">
+            <img class="card-img-top" src="images\sudokuimg.png" alt="Sudoku image">
             <div class="card-header">
                 <h3 class="project-title">Sudoku Game</h3>
 
@@ -255,12 +251,17 @@
             <div class="card-body">
               <p class="card-text">Implementation of Sudoku game. Implements visual solve for recursive backtracking algorithm and compares it's time complexity to Crook's algorithm. GUI is provided using pygame.</p>
             </div>
+            <div class="project-card-overlay">
+              <a href="https://github.com/ishashukla183/SudokuGame">
+             <img class="project-img"src="images/github1.png" alt=""></a>
+             <p>View on Github</p>
+            </div>
           </div>
         </div>
 
-        <div class="col col-lg-4 col-md-12 col-sm-12">
-          <div class="card tt-scheduler">
-            <img class="card-img-top img" src="images\tt-scheduler.png" alt="Meme Share app">
+        <div class="col col-lg-4 col-md-12 col-sm-12 project-col">
+          <div class="card tt-scheduler grey-container">
+            <img class="card-img-top portfolio" src="images\timetable-scheduler.svg" alt="Meme Share app">
             <div class="card-header">
               <h3 class="project-title">Timetable-generator</h3>
 
@@ -268,40 +269,60 @@
             <div class="card-body">
               <p class="card-text">An exam timetable scheduler that takes in batches and courses as input and creates a time-table using minimum time-slots. Created in JAVA. Graph data structure and graph-coloring algorithm is used.</p>
             </div>
+            <div class="project-card-overlay">
+              <a href="https://github.com/ishashukla183/timetable-generator">
+             <img class="project-img"src="images/github1.png" alt=""></a>
+             <p>View on Github</p>
+            </div>
           </div>
         </div>
-        <div class="col col-lg-4 col-md-12 col-sm-12">
-          <div class="card memeShare">
-            <img class="card-img-top " src="images\meme-share.jpg" alt="Meme Share app">
+        <div class="col col-lg-4 col-md-12 col-sm-12 project-col">
+          <div class="card memeShare grey-container">
+            <img class="card-img-top " src="images\memeshare.png" alt="Meme Share app">
             <div class="card-header">
               <h3 class="project-title">Meme Share</h3>
             </div>
             <div class="card-body">
               <p class="card-text">A fun application that uses an API to get memes from Reddit. Developed using Android Studio in Kotlin.</p>
             </div>
+            <div class="project-card-overlay">
+              <a href="#">
+             <img class="project-img"src="images/github1.png" alt=""></a>
+             <p>View on Github</p>
+            </div>
           </div>
         </div>
-        <div class="col col-lg-4 col-md-12 col-sm-12">
-          <div class="card traffic-control">
-            <img class="card-img-top img" src="images\trafficlight.jpg" alt="Meme Share app">
+        <div class="col col-lg-4 col-md-12 col-sm-12 project-col">
+          <div class="card grey-container">
+            <img class="card-img-top portfolio" src="images\calc.svg" alt="Meme Share app">
             <div class="card-header">
-            <h3 class="project-title">Traffic Controller</h3>
+            <h3 class="project-title">Calculator</h3>
             </div>
             <div class="card-body">
               <p class="card-text">
-                Created a two-way Traffic control system on Circuitverse using combinational logic. Hardware used : decoder, D-flipflop, logic gates, clock, LED lights
+                Simple Calculator created in Python using Tkinter. Performs basic arithmetic operations on integers as well as floating point numbers, calculates squares and square roots.
               </p>
+            </div>
+            <div class="project-card-overlay">
+              <a href="#">
+             <img class="project-img"src="images/github1.png" alt=""></a>
+             <p>View on Github</p>
             </div>
           </div>
         </div>
-        <div class="col col-lg-4 col-md-12 col-sm-12">
-          <div class="card portfolio">
-            <img class="card-img-top img" src="images\undraw_portfolio_website_lidw.png" alt="Portfolio website">
+        <div class="col col-lg-4 col-md-12 col-sm-12 project-col">
+          <div class="card grey-container">
+            <img class="card-img-top portfolio" src="images\portfolio.svg" alt="Portfolio website">
             <div class="card-header">
               <h3 class="project-title">Portfolio website</h3>
             </div>
             <div class="card-body">
               <p class="card-text">A Portfolio website to showcase my Skills and Projects. Developed using HTML, CSS, Bootstrap and JavaScript</p>
+            </div>
+            <div class="project-card-overlay">
+              <a href="https://github.com/ishashukla183/cv">
+             <img class="project-img"src="images/github1.png" alt=""></a>
+             <p>View on Github</p>
             </div>
           </div>
         </div>
@@ -342,7 +363,7 @@
       </div>
     </div>
   </div>
-  <div class="container-fluid black-container" id="footer">
+  <div class="black-container" id="footer">
     <h2 class="GetInTouch"> <strong> Get In Touch</strong> </h2>
     <p>Let's chat over coffee sometime!</p>
     <a href="mailto:ishashukla183@gmail.com">
