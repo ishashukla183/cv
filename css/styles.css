@@ -180,9 +180,9 @@ bold{
  .About-me{
     display: inline;
   }
-   .card{
-  margin-left: 20px;
-  margin-right: 20px;
+.card{
+  margin-left: 25px;
+  margin-right: 25px;
 }
   /*First title page*/
 .profilepic{
