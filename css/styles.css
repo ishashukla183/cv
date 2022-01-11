@@ -180,6 +180,10 @@ bold{
  .About-me{
     display: inline;
   }
+   .card{
+  margin-left: 20px;
+  margin-right: 20px;
+}
   /*First title page*/
 .profilepic{
 width: 85%;
@@ -222,10 +226,7 @@ font-family: 'Sacramento', cursive;
 .icon-top{
   margin: auto 40px;
 }
-  .card{
-  margin-left: 20px;
-  margin-right: 20px;
-}
+ 
 #about-me{
   margin-left: 100px;
 }
