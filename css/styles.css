@@ -170,7 +170,7 @@ bold{
   margin-right: 3px;
   margin-top: 3px;
   height: 224px;
-  width: 98%;
+  width: 300px;
 }
 .project-col{
   padding-top: 30px;
@@ -180,10 +180,7 @@ bold{
  .About-me{
     display: inline;
   }
-.card{
-  margin-left: 25px;
-  margin-right: 25px;
-}
+
   /*First title page*/
 .profilepic{
 width: 85%;
