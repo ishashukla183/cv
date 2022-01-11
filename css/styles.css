@@ -170,7 +170,7 @@ bold{
   margin-right: 3px;
   margin-top: 3px;
   height: 224px;
-  
+  width: 98%;
 }
 .project-col{
   padding-top: 30px;
@@ -180,9 +180,6 @@ bold{
  .About-me{
     display: inline;
   }
-.card{
-margin: 5%;
-}
   /*First title page*/
 .profilepic{
 width: 85%;
@@ -190,7 +187,10 @@ width: 85%;
 .skill-img{
   margin: 20px;
 }
-
+.card{
+  margin-left: 20px;
+  margin-right: 20px;
+}
 .container-one{
   display: inline;
 }
@@ -225,7 +225,6 @@ font-family: 'Sacramento', cursive;
 .icon-top{
   margin: auto 40px;
 }
- 
 #about-me{
   margin-left: 100px;
 }
