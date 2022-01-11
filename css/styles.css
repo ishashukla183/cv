@@ -8,7 +8,6 @@
 }
 .card-img-top{
   height:230px;
-  width: 370px;
   padding: 3px;
 }
 
@@ -171,7 +170,7 @@ bold{
   margin-right: 3px;
   margin-top: 3px;
   height: 224px;
-  width: 364px;
+  width: 98%;
   padding: 3px;
 
 }
@@ -186,6 +185,11 @@ bold{
   /*First title page*/
 .profilepic{
 width: 85%;
+}
+.card-img-top{
+  height:230px;
+  
+  padding: 3px;
 }
 .skill-img{
   margin: 20px;
@@ -225,6 +229,9 @@ font-family: 'Sacramento', cursive;
     width: 90%;
     margin-left: 100px;
   }
+  .portfolio{
+    width: 98%;
+  }
 .icon-top{
   margin: auto 40px;
 }
@@ -253,5 +260,8 @@ font-family: 'Sacramento', cursive;
  position: relative;
  top: 80px;
  right: 80px;
+}
+.portfolio{
+  width: 98%;
 }
 }
